@@ -1,8 +1,7 @@
-// 1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
-
 import math.Pi
 import util.control.Breaks._
 
+// 1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
 def cradio(circunferencia:Double): Double = {
   circunferencia + 10
 }
