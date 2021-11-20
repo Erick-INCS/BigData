@@ -35,15 +35,10 @@ print("\n\n")
 data.printSchema()
 ```
 
-### First 5 columns
+### Get additional infromation about the data
 ```scala
-data.select(
-  $"Sepal_Length",
-  $"Sepal_Width",
-  $"Petal_Length",
-  $"Petal_Width",
-  $"Species"
-).show
+print("\n\n")
+data.describe().show()
 ```
 
 ### Convertion from categorical to numerical
