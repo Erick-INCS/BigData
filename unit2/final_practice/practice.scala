@@ -24,15 +24,9 @@ data.columns
 print("\n\n")
 data.printSchema()
 
-// First 5 columns
-data.select(
-  $"Sepal_Length",
-  $"Sepal_Width",
-  $"Petal_Length",
-  $"Petal_Width",
-  $"Species"
-).show
-
+// Additional information
+print("\n\n")
+data.describe().show()
 
 // Convertion from categorical to numerical
 val assembler = new VectorAssembler().
