@@ -1,2 +1,6 @@
 *.metals*
 *.vscode*
+*.crc
+*.part-00007*
+unit4/.metals
+unit4/.vscode
